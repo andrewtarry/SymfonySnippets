@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+namespace ${1}\\${2}Bundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
+
+class ${3}Controller extends Controller
+{
+	
+	${4}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sfcontroller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:\$em}->getRepository('${2}')->${3:find}(${4})
+${5}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sfrepo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
