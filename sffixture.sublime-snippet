@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+namespace ${1}\\${2}Bundle\DataFixtures\\${3:Test};
+
+use Doctrine\Common\DataFixtures\AbstractFixture;
+use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
+use Doctrine\Common\Persistence\ObjectManager;
+use ${1}\\${2}Bundle\Entity\\${4};
+
+class ${4}Data extends AbstractFixture implements OrderedFixtureInterface
+{
+
+    public function load(ObjectManager \$manager)
+    {
+		${6}
+        \$manager->flush();
+    }
+
+    public function getOrder()
+    {
+        return ${5};
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sffixture</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

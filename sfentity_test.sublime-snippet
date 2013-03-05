@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+namespace ${1}\\${2}Bundle\Tests\Entity;
+
+use ${1}\\${2}Bundle\Tests\ModelTestCase;
+
+class ${3}Test extends ModelTestCase
+{
+
+	private \$${4};
+
+	public function setUp()
+	{
+		parent::setUp();
+		\$this->${4} = \$this->em->getRepository('${1}${2}Bundle:${3}')->find(1);		
+	}
+
+	public function testGetters()
+	{
+		${5}
+	}
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sfentity_test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

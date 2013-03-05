@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:\$em}->getRepository('${2}')->${3:find}(${4})
+${1:\$em}->getRepository('${2}')->${3:find}(${4});
 ${5}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
