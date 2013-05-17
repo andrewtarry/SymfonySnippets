@@ -17,6 +17,7 @@ class ${3}Test extends ModelTestCase
 
 	public function testGetters()
 	{
+		\$this->assertInternalType('integer', \$this->${4}->getId());
 		${5}
 	}
 
