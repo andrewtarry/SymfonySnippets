@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-namespace ${1}\\${2}Bundle\DataFixtures\\${3:Test};
+namespace ${1}\\${2}Bundle\\${3:Tests}\DataFixtures;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
